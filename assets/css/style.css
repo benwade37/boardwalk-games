@@ -24,7 +24,15 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+h1,
+h2 {
     text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .sub-heading-color {
@@ -41,9 +49,6 @@ h3 {
 
 
 
-.col-12 {
-    border: 2px solid white;
-}
 
 /* Navbar */
 
@@ -57,4 +62,51 @@ h3 {
 
 #header .lead {
     font-family: var(--secondary-font);
+}
+
+/* Services */
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services.card {
+    margin-bottom: 1.5rem;
+}
+
+#new-games .card,
+#fav- games .card, {
+border: none;
+}
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 { 
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color-light)
+}
+
+#contact i {
+    color: var(--secondary-color)
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
+    transition: color 0..3s ease-in-out;
 }
