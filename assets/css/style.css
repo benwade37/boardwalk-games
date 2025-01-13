@@ -27,7 +27,7 @@ h3 {
     text-transform: uppercase;
 }
 
-sub-heading-color {
+.sub-heading-color {
     color: var(--highlight-color);
 }
 
