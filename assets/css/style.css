@@ -24,22 +24,25 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 sub-heading-color {
     color: var(--highlight-color);
 }
 
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
 /* grid visualisation CSS for testing */
 
-.container,
-.row {
-    border: 2px solid black;
-}
+
 
 .col-12 {
     border: 2px solid white;
-    background-color: lightgray;
 }
 
 /* Navbar */
@@ -50,4 +53,8 @@ sub-heading-color {
 
 #navbar .logo {
     width: 30px;
+}
+
+#header .lead {
+    font-family: var(--secondary-font);
 }
